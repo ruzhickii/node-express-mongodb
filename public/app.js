@@ -3,4 +3,5 @@ document.querySelectorAll('.price').forEach(node => {
         currency: 'usd',
         style: 'currency'
     }).format(node.textContent);
-})
+});
+
